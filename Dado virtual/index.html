@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dados de la Suerte</h1>
+        <div>
+            <label for="min">Ingresa el número mínimo del dado:</label>
+            <input type="number" id="min">
+        </div>
+        <div>
+            <label for="max">Ingresa el número máximo del dado:</label>
+            <input type="number" id="max">
+        </div>
+        <div class="suerte">¡Suerte!</div>
+        <button onclick="dado()">¡Tirar los Dados!</button>
+        <div id="out"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
